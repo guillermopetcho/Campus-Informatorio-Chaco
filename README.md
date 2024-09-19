@@ -1,6 +1,9 @@
-# Informatorio
-Trabajos practicos de las etapas
-https://github.com/guillermopetcho/Informatorio/wiki
+# Campus Informatorio Chaco -- Archivos + Proyectos
+
+## Cada branch es una etapa dentro del curso.
+
+mis certificados:
+
 
 
 
