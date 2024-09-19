@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- La idea de la estructura es demostrar el conocimientos adquirido sobre sintaxis-semantica en HTML,CSS -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="shortcut icon" href="assets/docs/recurse/images/perfil--index.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet"/>
+    <!-- Agregamos los links -->
+    <title>Portfolio</title>
+</head>
+
+
+<body>
+    <header class="encabezado">
+        <nav class="navegacion">
+
+            <a class="navegacion__enlace" href="presentacion">
+                <h2 class="navegacion__title">Portfolio HTML-CSS</h2>
+            </a>
+
+            <ul class="enlaces">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#inicio">Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#historia">Sobre mi</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#proyects">Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <!-- primer section -->
+        <section class="presentacion" id="presentacion">
+            <div class="prentacion__content_info">
+                <h1 class="presentacion__title">Petcho, Guillermo Nicolás</h1>
+                <p class="presentacion__p">Ex estudiante de Ingenieria en sistemas, rendido hasta 2do y acutalmente desarrollador autodidacta en HTML-CSS</p>
+                <div>
+                    <a href="#cvu--digital" class="boton" role="button">CVU digital</a>
+                    <a href="assets/navegacion/historia.html" target="_blank" class="boton boton_oscuro" role="button">Historia</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- segunda section -->
+
+        <article class="informacion" id="informacion">
+            <h2 class="titulo__informacion">Biografia:</h2>
+            <div class="articulo__informacion_biografia">
+                <section class="descripcio__biografia">
+                    <div class="articulo__informacion_biografia_imagen">
+                        <img src="./assets/images/jpg/img-rostro.jpeg" alt="imagen de Guillermo" title="Programando y estudiando fisica">
+                    </div>
+
+            <div class="seccion_descripcion__info scroll scroll_fino scroll_gris" aria-label="descripcion personal">
+              <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                Estudios Secundarios:
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              Desarrollé mis estudios en el Instituto Don Orione (UEP N 55), finalizando dicha etapa en 2016 en el área de Biología y Ciencias.En dicha institución, tanto en primaria como en secundaria, dimos materias ligadas a las tecnologías de la época.<br> Mi comienzo en el mundo de la programación fue a temprana edad, descargando proyectos de juegos estilo MMORPG como argentium Online (Visual Basic) y realizando aportes en páginas web, como  así, respondiendo dudas en comunidades de programadores y compartiendo código (estando en rangos destacados en páginas como GS-ZONE).<br>Luego adquirí conocimientos (amateur) en seguridad informática, gracias a las primeras revistas de Dragon Jar y las machine Metasploitable, descubriendo comunidades que compartían sus conocimientos y, volviendo a lo mismo, también compartía los míos.
+              </p>
+              <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                La programación y seguridad informática:
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              Con 17 años de edad comencé a estudiar para conseguir el título de OSCP y dejando dicha preparación por temas personales. Entre los 18-19 años comencé mis estudios en Ingeniería en sistemas de la información, regularizando y aprobando casi por completo el primer año, que luego en 2020 terminaría de aprobarlo para después cambiarme al profesorado de física.<br> Ampliando un poco la información, puedo aclarar que, si bien la gran mayoría de los conocimientos sobre seguridad informatica y programación se fueron perdiendo a lo largo del tiempo. En 2022 me registré en la página "Hack the Box", logrando, con ayuda de documentación y gran atracción a problemas/errores informáticos, llegar a realizar una cantidad de aproximada de 20-30 máquinas virtuales en un lapso de 3 meses. Dejando en claro que no soy una persona que estudia de memoria los conceptos y algoritmos, más bien, los entiendo para crear algo diferente y buscar la eficiencia.
+              </p>
+              <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                Programación y ciencia:
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              En 2023 decidí aplicar conocimientos sobre ciencia en lenguajes de programación (Manim), creando así gran cantidad de códigos para poder entender a más profundidad conceptos físicos. Manim permite desarrollar gráficos 3D-2D en movimiento con gran precisión y nivel de detalle. Estos videos fueron de gran ayuda para poder entender de forma autodidacta temas complejos que me servirán para realizar investigaciones futuras sobre teorías en física. A todo esto, queda en claro mi interés por la programación, aclarando que soy una persona que aprende rápido, pero también se olvida rápido dichos conocimientos. Dejando en manos de la práctica y dedicación el nivel de conocimiento.
+              </p>
+              <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                Finalizando:
+              </h3>
+              <p
+                class="seccion_descripcion__parrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_titulo"
+              >
+              La seguridad informática y ciencia son viejas pasiones, sobre las cuales recae mi atención. Siendo la última, la gran pasión de mi vida y viéndome imposibilitado a profundizar en mis estudios por temas económicos por los cuales, desde joven, me veo en la situación de trabajar y dedicar tiempo a segundas actividades que son ajenas a mis gustos. Por este motivo, me veo en la posición de abordar HTML-CSS como una oportunidad para aplicar conocimiento disfrutando del aprendizaje. Mi paso por el informatorio viene ligado al gran de interés de gestionar y expandir el uso de inteligencia artificial en el área de la ciencia. Sea creando páginas inteligentes que desarrollen cálculos matemáticos/físicos o algoritmos que resuelvan problemas de índole científica.<br> Mi semántica-ética es cumplir con "una seguridad rigurosa, eficiencia en el código y armonía visual en el sitio web, adhiriendo en cualquier empresa o institución una valoración extra por parte del usuario o cliente".    </p>
+            </div>
+                </section>
+
+            </div>
+
+        </article>
+
+
+    </main>
+
+
+
+    <footer class="pie__pagina" role="contentinfo">
+        <div>
+            <h4 class="pie__pagina__columna">Redes sociales</h4>
+            <ul class="enlaces enlaces__redes">
+
+                <li class="enlaces enlaces__footer" href="https://www.instagram.com/pgnsss?igsh=b3BjOXF3djhxbjZ5" target="_blank">
+                    
+                    <a
+                      class="enlaces enlaces__redes"
+                      target="_blank"
+                      >Instagram
+                    </a>
+                    <img
+                    class="enlaces__icono"
+                    src="./assets/images/logs/log-ig.png"
+                    alt="logo de instagram"
+                    title="instagram"/>
+                </li>
+
+                <li class="enlaces enlaces__footer" href="https://github.com/guillermopetcho/Informatorio" target="_blank">
+                    <a
+                      class="enlaces enlaces__redes"
+                      target="_blank"
+                      >GitHub
+                    </a>
+                    <img
+                    class="enlaces__icono"
+                    src="./assets/images/logs/github-mark-white.png"
+                    alt="logo de github"
+                    title="GitHub"/>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pie__pagina__columna">
+            <h4 class="pie__pagina_titulo_columna">Contacto</h4>
+            <ul>
+                <li class="enlaces__item">
+                    <a
+                      class="enlaces__enlace enlaces__enlace_footer"
+                      target="_blank"
+                      >guillermopetcho@gmail.com
+                    </a>
+                    <img
+                    class="enlaces__icono"
+                    src="./assets/images/logs/log-gmail.png"
+                    alt="logo de github"
+                    title="GitHub"/>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pie_de_pagina__copyright">
+            <p>©️Copyright 2024-You deserve what you dream</p>
+        </div>
+
+    </footer>
+</body>
+
+
+</html>
